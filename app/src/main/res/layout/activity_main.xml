@@ -15,7 +15,7 @@
                 android:id="@+id/syllabusFragment"
                 android:name="com.example.vtucssyllabus.SyllabusFragment"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
@@ -24,26 +24,6 @@
                 app:layout_constraintVertical_bias="0.0"
                 tools:layout="@layout/fragment_syllabus" />
 
-            <fragment
-                android:id="@+id/navHostFragment"
-                android:name="androidx.navigation.fragment.NavHostFragment"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                app:defaultNavHost="true"
-                app:navGraph="@navigation/navigation" />
         </LinearLayout>
-
-        <com.google.android.material.bottomnavigation.BottomNavigationView
-            android:id="@+id/bottom_navigation"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:itemIconTint="@color/bnv_tab_item_foreground"
-            app:elevation="@dimen/large_margin"
-            app:itemTextColor="@color/bnv_tab_item_foreground"
-            android:background="@android:color/white"
-            app:menu="@menu/menu"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
