@@ -42,7 +42,7 @@ class SyllabusFragment : Fragment() {
             val text =  binding.syllabusOR.text.toString()
             openSyllabus(text)
         }
-
+        setHasOptionsMenu(true)
         return binding.root
     }
     private fun openSyllabus(text:String)
