@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="medium_text">24sp</dimen>
+    <dimen name="large_margin">24dp</dimen>
+    <dimen name="medium_margin">16dp</dimen>
+    <dimen name="upload_widtyh">368dp</dimen>
+    <dimen name="upload_height">29dp</dimen>
+    <dimen name="fab_size">32dp</dimen>
+    <dimen name="small_text_size">20sp</dimen>
+    <dimen name="syllabus_button_text">18sp</dimen>
+    <dimen name="margin_tiny">8dp</dimen>
+</resources>

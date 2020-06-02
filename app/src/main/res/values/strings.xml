@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">VTU CS SYLLABUS</string>
+    <string name="home">Home</string>
+    <string name="notes">Notes</string>
+    <string name="notifications">Notifications</string>
+    <string name="subject">Subjects</string>
+    <string name="upload_file">UPLOAD FILE</string>
+    <string name="date">Date</string>
+    <string-array name="subjects">
+        <item>Operating System</item>
+        <item>Computer Graphics</item>
+        <item>System Software &amp; Compiler Design</item>
+        <item>Cryptography &amp; Network Security</item>
+        <item>Operations Research</item>
+        <item>Python Application Programming</item>
+    </string-array>
+    <string name="operating_system">Operating System</string>
+    <string name="computer_graphics">Computer Graphics</string>
+    <string name="python_application_programming">Python Application Programming</string>
+    <string name="cryptography_and_network_security">Cryptography and Network Security</string>
+    <string name="compiler_design">Compiler Design</string>
+    <string name="operations_research">Operations Research</string>
+    <string name="note_type">Note Type</string>
+    <string name="about">This android application has been created for easy access to the VTU
+        syllabus of Computer Science branch for the 6th Semester.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="assignments">Assignments</string>
+    <string name="syllabus">Syllabus</string>
+    <string name="about_app">About</string>
+</resources>
