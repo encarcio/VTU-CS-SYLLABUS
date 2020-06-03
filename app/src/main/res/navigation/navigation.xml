@@ -2,7 +2,8 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/navigation">
+    android:id="@+id/navigation"
+    app:startDestination="@+id/syllabusFragment">
 
     <fragment
         android:id="@+id/aboutFragment"
@@ -10,11 +11,17 @@
         android:label="AboutFragment"
         tools:layout="@layout/fragment_about">
 
+        <action
+            android:id="@+id/action_aboutFragment_to_syllabusFragment"
+            app:destination="@id/syllabusFragment" />
     </fragment>
     <fragment
         android:id="@+id/syllabusFragment"
         android:name="com.example.vtucssyllabus.SyllabusFragment"
         android:label="SyllabusFragment"
         tools:layout="@layout/fragment_syllabus">
+        <action
+            android:id="@+id/action_syllabusFragment_to_aboutFragment"
+            app:destination="@id/aboutFragment" />
     </fragment>
 </navigation>
