@@ -1,6 +1,7 @@
 package com.example.vtucssyllabus
 
 import android.content.Intent
+import android.content.Intent.FLAG_ACTIVITY_CLEAR_TOP
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater

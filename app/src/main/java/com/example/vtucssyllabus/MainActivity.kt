@@ -33,5 +33,8 @@ class MainActivity : AppCompatActivity() {
                 else->false
             }
         }
+        bottomNavigationView.setOnNavigationItemReselectedListener {
+
+        }
     }
 }

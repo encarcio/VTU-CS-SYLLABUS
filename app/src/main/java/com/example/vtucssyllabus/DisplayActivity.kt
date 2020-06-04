@@ -41,6 +41,5 @@ class DisplayActivity : AppCompatActivity() {
             else ->{
                 Toast.makeText(applicationContext,"No syllabus found",Toast.LENGTH_SHORT).show()}
         }
-
     }
 }
